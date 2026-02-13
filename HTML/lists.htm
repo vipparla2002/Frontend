@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <ul>unordered list
+        <li>item 1</li>
+        <li>item 2</li>
+    </ul>
+
+    <ul>unordered list - nesting with unordered lists
+        <li>item1
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li>item2
+                <ul>
+                    <li>subitem1 <ul>
+                        <li>subsubitem1</li>
+                        <li>subsubitem2</li>
+                    </ul></li>
+                </ul>
+        </li>
+
+    </ul>
+
+
+    <ol>ordered list - basic
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol start="11">ordered list - start attribute
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol start="-33">ordered list - start attribute with negative value
+        <li>-33rd item</li>
+        <li>-32nd item</li>
+    </ol>
+
+    <ol type="a">ordered list - type attribute with lowercase letters
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol start="11" type="a">ordered list - start and type attributes with lowercase letters - starts at 11th lowercase letter as the index
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol start="11" type="A">ordered list - start and type attributes with uppercase letters - starts at 11th uppercase letter as the index
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol start="11" type="i">ordered list - start and type attributes with lowercase Roman numerals - starts at 11th lowercase Roman numeral as the index
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol start="11" type="I">ordered list - start and type attributes with uppercase Roman numerals - starts at 11th uppercase Roman numeral as the index
+        <li>11th item</li>
+        <li>12th item</li>
+    </ol>
+
+    <ol> ordered list - nesting with ordered lists
+        <li>item1
+            <ol>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ol>
+        </li>
+        <li>item2
+                <ol>
+                    <li>subitem1 <ol>
+                        <li>subsubitem1</li>
+                        <li>subsubitem2</li>
+                    </ol></li>
+                </ol>
+        </li>
+    </ol>
+
+    <ol> combination of ordered and unordered lists
+        <li>item1
+            <ul>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ul>
+        </li>
+        <li>item2
+            <ol>
+                <li>subitem1</li>
+                <li>subitem2</li>
+            </ol>
+        </li>
+        <li>item3
+            <ol type="a">
+                <li>subitem1</li>
+                <li>subitem2</li>
+                <li>subitem3
+                    <ol start="23" type = 'i'>
+                        <li>subsubitem1</li>
+                        <li>subsubitem2</li></ol>
+                </li>
+            </ol>
+        </li>
+            </ol>
+        </li>
+    </ol>
+
+   
+<dl><h3>Laws of Thermodynamics</h3>
+    
+    <dt>Zeroth Law</dt>
+    <dd>If objects A and B are each in thermal equilibrium with object C, 
+        then A and B are in thermal equilibrium with each other.</dd>   
+
+    <dt>First Law</dt>
+    <dd>The total energy of an isolated system remains constant over time 
+        (energy can neither be created nor destroyed, only converted).</dd>   
+
+    <dt>Second Law</dt>
+    <dd>The entropy of an isolated system always increases over time.</dd>
+    <dd>Maximum work is obtained in a reversible process.</dd> 
+    <dd>All spontaneous processes are irreversible.</dd>
+
+    <dt>Third Law</dt>
+    <dd>The entropy of a perfectly crystalline solid at absolute zero temperature is zero.</dd>
+    <dd>A system’s entropy is minimum at absolute zero temperature.</dd>
+</dl>
+
+
+
+</body>
+</html>
