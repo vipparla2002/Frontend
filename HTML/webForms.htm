@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Forms - Contact</title>
+</head>
+<body>
+    <form action="submit.php" method="post">
+        <h1>Contact Form</h1>
+
+        <fieldset>
+
+            <legend>Digital Identifiers</legend>
+
+            <!-- label and input are inline elements -->
+
+            <p>
+                <label for="emailId">Email Id</label>
+                <input type="email" required name="email" id="emailId" placeholder="example@domain.tld">
+            </p>
+
+            <p>
+                <label for="phoneNumber">Phone Number</label>
+                <select name="CountryCode" required id="countryCode">
+                    <option selected value="+91">+91</option>
+                    <option value="+151">+151</option>
+                    <option value="+43">+43</option>
+                </select>    
+                <input type="tel" required pattern="[0-9]{10}" placeholder="1234567890" name="phone" id="phoneNumber">
+            </p>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Address</legend>
+
+            <!-- label and input are inline elements -->
+
+            <p>
+                <label for="buildingNumber">House/Apartment No. </label>
+                <input type="text" required name="building" id="buildingNumber">
+            </p>
+
+            <p>
+                <label for="streetName">Street Name </label>
+                <input type="text" placeholder="ex: marri oodala veedi" name="street" id="streetName">
+            </p>
+
+            <p>
+                <label for="LandMark">Land Mark</label>
+                <input type="text" placeholder="ex: dhrama stupam" name="land-mark" id="LandMark">
+            </p>
+
+            <p>
+                <label for="TownCity">Town/City</label>
+                <input required type="text" placeholder="ex: Ongolu" name="town-city" id="TownCity">
+            </p>
+            
+            <p>
+                <label for="StateProvince">State/Province</label>
+                <input required type="text" placeholder="ex: Andhra Pradesh" name="state-province" id="StateProvince">
+            </p>
+
+            <p>
+                <label for="Country">Country</label>
+                <input required type="text" placeholder="ex: Bharatha Varsha" name="country" id="Country">
+            </p>
+
+        </fieldset>
+
+        <!-- <p>
+            <button type="submit">Submit</button>
+        </p> -->
+        <p><input type="submit" value="Contact Me" ></p>
+    </form>
+</body>
+</html>
