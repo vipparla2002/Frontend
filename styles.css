@@ -1,0 +1,47 @@
+p
+{
+    background-color: bisque;
+}
+span{
+    background-color: palegoldenrod;
+}
+.title
+{
+    text-align: center;
+}
+.heading
+{
+    color: purple;
+    background-color: ivory;
+  text-align: center;
+  border: 2px solid #000;
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+}
+.navitem
+{
+    border:solid 1px #000;
+    padding: 15px 40px;
+    text-decoration: none;
+    color: black;
+    
+}
+.table
+{
+    border: solid 2px;
+    background-color: aliceblue;
+}
+
+#index{
+    background-image: url(media/Download-Free-Pictures-3840x2160-1309706387.jpg) ;
+}
+
+#about{
+    background-image: url(media/Free-Download-Wildlife-Image-2693362999.jpg) ;
+}
+
+#contact{
+    background-image: url(media/pexels-photo-459225-2931340.jpeg);
+}

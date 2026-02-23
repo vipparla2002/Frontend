@@ -1,0 +1,36 @@
+body{
+    background: 
+    tomato 
+    url("./media/stream.jpg") 
+    repeat-x
+    fixed;
+}
+li{
+    background-image:url("./media/leopard.jpg");
+    background-size:300px 400px;
+    background-position: top right;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+}
+table{
+    background-image:url("./media/lake.jpeg");
+}
+h1,h3
+{
+    background-color: rgb(0, 153, 204);
+
+}
+
+p
+{
+    background-color: #ca0;
+
+}
+span
+{
+    background-color: rgba(167, 169, 36, 0.5);
+}
+.title
+{
+    background-color: hsla(206, 38%, 38%, 0.5);
+}

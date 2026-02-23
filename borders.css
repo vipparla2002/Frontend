@@ -1,0 +1,17 @@
+*
+{
+    background-color: #ffc;
+    margin:5px ;
+    padding:10px 
+}
+section
+{
+    border: solid rgba(233,180,100,0.8) 3pt;
+}
+nav{
+    border-bottom-style: solid ;
+    border-bottom-width:3px ;
+    border-bottom-color:hsla(169 7% 13% / 0.311);
+    margin:5px;
+
+}
