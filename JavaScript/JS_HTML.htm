@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS in HTML</title>
+</head>
+<body>
+    <fieldset> 
+        <section>
+            <label for="num1">Number 1</label>
+            <input id="num1" type = "number" placeholder="number 1">
+
+            <label for="num2">Number 2</label>
+            <input id="num2" type = "number" placeholder="number 2">
+
+            <select name="action" id="operation">Operation
+                <option value="addition">Addition</option>
+                <option id = 'subtraction' value="subtraction">Subtraction</option>
+                <option id = 'multiplication' value="multiplication">Multiplication</option>
+                <option id = 'division' value="division">Division</option>
+            </select>
+
+            <button onclick="Perform()">Perform</button>
+
+            <p>
+                The result is : <span id="result"></span>
+            </p>
+            <script>
+                var res = document.getElementById('result');
+
+                function Perform()
+                {
+                    var operation = document.getElementById('operation').value
+                    switch(operation)
+                    {
+                    case 'addition':
+                        function Add()
+                        {
+                            res.innerText= Number(document.getElementById('num1').value) + Number(document.getElementById('num2').value)
+                        }
+                        Add()
+                        break
+                    case 'subtraction':
+                        function Subtract()
+                        {
+                            res.innerText= Number(document.getElementById('num1').value) - Number(document.getElementById('num2').value)
+                        }
+                        Subtract()
+                        break
+                    case 'multiplication':
+                        function Multiply()
+                        {
+                            res.innerText= Number(document.getElementById('num1').value) * Number(document.getElementById('num2').value)
+                        }
+                        Multiply()
+                        break
+                    case 'division':
+                        function Divide()
+                        {
+                            res.innerText= Number(document.getElementById('num1').value) / Number(document.getElementById('num2').value)
+                        }
+                        Divide()
+                        break
+                    }
+                }
+            </script>
+        </section>
+    </fieldset>
+</body>
+</html>
